@@ -5,16 +5,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "4e5b39e5c7c6066e5144dfc50cf466cf"
+        API_ID = 17894641
+        BOT_TOKEN = "5705156853:AAETn1HpOHb0POCFGqUCwGOLyVHVN0qR_rM"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [5468192421,5559979635,5504969603,1349301822,-1001664467617,-1001750717073,-1001709641606]
         OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
@@ -24,7 +24,7 @@ except:
         EDIT_SLEEP_SECS = 40
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2147483648
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -36,16 +36,16 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://upcplrql:Bz1pSRTRxGdD8V9yodaZ6xYAvDkGehBd@arjuna.db.elephantsql.com/upcplrql"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "4N9WAb7b"
+        MEGA_UNAME = 4tgbot@gmail.com
+        MEGA_PASS = Rpkvipsr3@#
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
